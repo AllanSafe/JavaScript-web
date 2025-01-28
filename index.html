@@ -16,13 +16,13 @@
   <body>
     <main>
       <img src="img/bag.png" alt="sacola de compras" />
-      <form>
+      <form class="form">
         <input
           id="input-item"
           type="text"
           placeholder="Digite o item que deseja comprar"
         />
-        <button id="input-item-button">Salvar item</button>
+        <button id="input-item-button">Salvar</button>
       </form>
 
       <ul>
@@ -55,6 +55,20 @@
           <p class="item-lista-texto">Segunda-feira (27/01/2025) ás 09:38</p>
         </li>
       </ul>
+      <hr class="hr-sugestao" />
+      <form class="form-descricao">
+        <div class="container-form">
+          <h2 class="form-titulo">Caixa de Sugestões</h2>
+          <div class="input-form">
+            <input
+              class="input-form-descricao"
+              type="text"
+              placeholder="Sugestões"
+            />
+            <button id="input-form-descricao-button">Enviar</button>
+          </div>
+        </div>
+      </form>
     </main>
   </body>
 </html>
