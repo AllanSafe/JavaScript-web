@@ -66,20 +66,20 @@ p {
   text-align: left;
 }
 
-#input-item {
+.input-item {
   padding: 12px 16px;
   display: block;
   border-radius: 24px;
   border: 1px solid var(--preto);
   width: 307px;
 }
-#input-item::placeholder {
+.input-item::placeholder {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 19px;
 }
 
-#input-item-button {
+.input-item-button {
   text-align: center;
   padding: 12px 15px;
   border-radius: 24px;
@@ -131,8 +131,12 @@ p {
   justify-content: space-between;
 }
 
-.container-nome-produto {
+.container-lista {
+  width: 100%;
+}
+div {
   display: flex;
+  gap: 1em;
 }
 
 ul {
